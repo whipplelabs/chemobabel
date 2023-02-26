@@ -75,7 +75,7 @@
 
 %% ----- Make a directory for images -----
 \def\chemob@bel@imgdir{chemobabelimgdir}
-\chemob@bel@exec{mkdir \chemob@bel@imgdir}
+\chemob@bel@exec{mkdir -p \chemob@bel@imgdir}
 
 %% ----- Definition of external commands -----
 \def\smilesob@bel@obabelcmd#1#2{obabel -:"#1" -O \smilesob@belGetName.svg #2}
